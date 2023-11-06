@@ -1,0 +1,806 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main {
+    max-width: 978px;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 968px;
+    margin: 1rem;
+    position: fixed;
+    z-index: 2;
+}
+
+.nav-item {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0.55rem;
+}
+
+.nav-item li img {
+    width: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8a2be2;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 5rem;
+    max-width: 968px;
+    width: 100%;
+    height: 84vh;
+}
+
+.img img {
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid #8a2be2;
+}
+
+.content {
+    line-height: 2;
+}
+
+.content h1 {
+    font-size: 45px;
+}
+
+.content h2 {
+    color: gray;
+    font-family: monospace;
+}
+
+.content p {
+    width: 270px;
+    line-height: 1.5;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.btn {
+    margin: 15px 0;
+}
+
+.nav-item button {
+    border: none;
+    background-color: transparent;
+}
+
+.header button {
+    width: fit-content;
+    height: fit-content;
+    padding: 14px 20px;
+    background-color: #8a2be2;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.scroll {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 20px;
+}
+
+.scroll p {
+    width: fit-content;
+}
+
+.aboutme {
+    position: relative;
+    margin: auto;
+    top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 968px;
+}
+
+.head {
+    margin: 50px auto;
+    width: 100%;
+}
+
+.aboutcont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.aboutimg img {
+    border-radius: 15px;
+    width: 300px;
+}
+
+.aboutimg {
+    margin-right: 46px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutcont p {
+    width: 290px;
+    text-align: initial;
+    line-height: 1.5;
+    color: gray;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+#darkmode {
+    display: none;
+}
+
+.skill {
+    max-width: 105vh;
+    margin: 100px 0px;
+}
+
+.con h4 {
+    font-family: system-ui;
+    color: gray;
+    font-size: small;
+}
+
+.mod {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn button {
+    width: fit-content;
+    height: fit-content;
+    padding: 14px 20px;
+    background-color: #8a2be2;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.front {
+    width: 43vh;
+    margin: 16px;
+}
+
+.fronth {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fronth img {
+    width: 46px;
+    height: 46px;
+}
+
+.fronth h1 {
+    font-size: 28px;
+}
+
+.fronth h1 span {
+    font-size: 15px;
+    position: relative;
+    left: -53px;
+    top: -9px;
+}
+
+#up {
+    display: none;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 84px;
+}
+
+#down {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 84px;
+}
+
+#up1 {
+    display: none;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 84px;
+}
+
+#down1 {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 84px;
+}
+
+#up2 {
+    display: none;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 84px;
+}
+
+#down2 {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 84px;
+}
+
+.fronth button img {
+    width: 23px;
+    height: 23px;
+}
+
+.front ul {
+    list-style: none;
+    display: none;
+    margin: 20px;
+    position: relative;
+}
+
+.front ul li {
+    text-align: start;
+}
+
+.front ul li h4 {
+    margin: 7px 0px;
+
+}
+
+.front ul li div {
+    height: 4px;
+    border-radius: 30px;
+    background-color: #c294ed;
+}
+
+
+.front ul li div div {
+    height: 4px;
+    border-radius: 30px;
+    width: 355px;
+    background-color: #8a2be2;
+}
+
+.qual {
+    text-align: center;
+    margin: 100px;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 49vh;
+    margin: auto;
+}
+
+.computer {
+    display: flex;
+    position: relative;
+    gap: 9.5vh;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+    width: 18.5vh;
+    text-align: start;
+    gap: 10px;
+}
+
+.stylee {
+    border: 1px solid grey;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    background-color: #8a2be2;
+    border-radius: 50%;
+    position: absolute;
+    right: 19.8vh;
+}
+
+.pos {
+    position: relative;
+    left: 260px;
+}
+
+.skill-con {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vh;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.skill-con img {
+    width: 37px;
+    position: relative;
+    top: 2vh;
+}
+
+.work {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    width: 49vh;
+    margin: auto;
+    position: relative;
+
+}
+
+.skill-con button {
+    background-color: transparent;
+    border: none;
+}
+
+.heading {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.heading h4 {
+    font-weight: 400;
+}
+
+.service-con {
+
+    display: flex;
+    width: 110vh;
+    margin: auto;
+    justify-content: space-evenly;
+    margin: 30px auto;
+
+}
+
+.ui-ux {
+    width: 217px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 7px;
+    border: 2px solid;
+    padding: 20px;
+}
+
+.service-logo {
+    width: 26px;
+}
+
+.right-arrow {
+    width: 11px;
+}
+
+.ui-ux a {
+    color: #8a2be2;
+    font-weight: 600;
+}
+
+.portfilo-con {
+    display: flex;
+    width: 105vh;
+    margin: 5vh auto;
+    position: relative;
+    justify-content: center;
+}
+
+.portfilo-con span {
+    position: absolute;
+    top: 10vh;
+}
+
+.portfilo-con span img {
+    width: 5vh;
+}
+
+.portfilo-ele {
+    display: none;
+    /* width: 80vh; */
+    justify-content: space-around;
+    width: 90%;
+}
+
+.portfilo-ele img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.portfilo-ele-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.portfilo-ele-right h4 {
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.portfilo-ele-right p {
+    width: 33vh;
+    color: grey;
+}
+
+.portfilo-ele-right button {
+    width: 12vh;
+    height: 5vh;
+    border: none;
+    background-color: #8a2be2;
+    color: white;
+    border-radius: 8px;
+}
+
+.lpos {
+    left: 0;
+}
+
+.rpos {
+    right: 0;
+}
+
+.contactme-con {
+    display: flex;
+    width: 100vh;
+    
+    justify-content: space-around;
+    margin: 15px auto;
+    border-radius: 25px;
+    background-color: #8a2be2;
+    padding: 2vh;
+}
+
+.conr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+}
+
+.conr h1 {
+    color: white;
+    font-size: 22px;
+}
+
+.conr p {
+    color: white;
+    font-size: 16px;
+    width: 40vh;
+}
+
+.conr button {
+    background-color: white;
+    width: 16vh;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.contactimg {
+    height: 30vh;
+    position: relative;
+    bottom: -2vh;
+}
+
+.contact-con {
+    width: fit-content;
+    margin: auto;
+}
+
+.contact-conr {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 24vh;
+
+}
+
+.icon-con {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 2vh;
+}
+
+.icon img {
+    width: 5vh;
+    height: 5vh;
+}
+
+.contact-conl {
+
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-con,
+.name {
+    display: flex;
+}
+
+.contact-con {
+    width: 80vh;
+    margin: 5vh auto;
+    justify-content: space-between;
+}
+
+.name {
+    justify-content: space-between;
+}
+
+.name input {
+    height: 8vh
+}
+
+.poject,
+.message,
+.text {
+    position: relative;
+}
+
+.poject input {
+    height: 10vh;
+}
+.down{
+    display: flex;
+}
+
+.message input {
+    height: 15vh;
+}
+
+label {
+    position: absolute;
+    left: 1vh;
+    top: 1vh;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #e1d2ee;
+    border: none;
+}
+
+.contact-conl button {
+    height: 8vh;
+    width: 16vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    background-color: #8a2be2;
+}
+
+footer {
+    background-color: #8a2be2;
+    height: 30vh;
+    width: 100%;
+    border: 2px solid #8a2be2;
+}
+
+.footer-con {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4vh auto;
+}
+
+.creater-name {
+    color: white;
+}
+
+.ser {
+    list-style: none;
+    display: flex;
+}
+
+.ser ul {
+    display: flex;
+    list-style: none;
+}
+
+.ser ul li {
+    color: white;
+    font-size: 2.5vh;
+}
+
+.logos {
+    width: 15vh;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos img {
+    width: 3vh;
+}
+
+/* @media screen and (width:414px) {  
+    .aboutcont{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .front {
+        width: 30vh;
+        margin: 16px;
+    }
+
+    .skill-con {
+        display: flex;
+        justify-content: space-evenly;
+        width: 27vh;
+        margin: 50px auto;
+        align-items: center;
+    }
+
+    .education {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 31vh;
+        margin: auto 1px;
+    }
+    .computer {
+        display: flex;
+        position: relative;
+        gap: 0.2vh;
+    }
+    .com {
+        display: flex;
+        flex-direction: column;
+        width: 9.5vh;
+        text-align: start;
+        gap: 6px;
+    }
+
+    .pos {
+        position: relative;
+        left: 167px;
+    }
+
+    .service-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 49vh;
+        margin: auto;
+        justify-content: space-evenly;
+        margin: 30px auto;
+    }
+
+    .portfilo-con {
+        display: flex;
+        width: 33vh;
+        margin: 5vh auto;
+        position: relative;
+        justify-content: center;
+    }
+    .portfilo-con span img {
+        width: 2vh;
+    }
+
+    element.style {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfilo-ele img {
+        width: 220px;
+        border-radius: 10px;
+    }
+    .portfilo-ele-right p {
+        width: 26vh;
+        color: grey;
+    }
+    .contactme-con {
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-around;
+        margin: 15px auto;
+        border-radius: 25px;
+        background-color: #8a2be2;
+        padding: 2vh;
+    }
+    .conr p {
+        color: white;
+        font-size: 16px;
+        width: 30vh;
+    }
+    .contactimg {
+        height: 22vh;
+        position: relative;
+        bottom: -2vh;
+        width: 22vh;
+        left: 38px;
+    }
+    .contact-con {
+        width: 33vh;
+        margin: 5vh auto;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .contact-conl {
+        height: 45vh;
+        width: 37vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+/* } */
